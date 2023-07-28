@@ -1,6 +1,6 @@
 # Dialogue Summarization with Static-Dynamic Structure Fusion Graph
 
-This repository contains the source code for this paper [Dialogue Summarization with Static-Dynamic Structure Fusion Graph]().
+This repository contains the source code for this paper [Dialogue Summarization with Static-Dynamic Structure Fusion Graph](https://aclanthology.org/2023.acl-long.775/).
 
 Dialogue summarization, one of the most challenging and intriguing text summarization tasks, has attracted increasing attention in recent years.
 
