@@ -20,7 +20,7 @@
     "num_beams": 5,
     "max_seq_len_per_utt": 200,
     "max_utt_num": 30,
-    "backbone_model": "../pretrained_model/bart_large",
+    "backbone_model": "facebook/bart-large",
     "model_type": "graphtransformer",
     "use_fast_tokenizer": true,
     "rezero": 1,

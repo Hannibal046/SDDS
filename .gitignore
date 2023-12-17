@@ -4,3 +4,5 @@ __pycache__
 wandb
 .DS_Store
 processed
+results
+results.pkl

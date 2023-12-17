@@ -22,13 +22,10 @@ Our code is mainly based on 🤗 [Transformers](https://github.com/huggingface/t
 ```bash
 ## firstly install torch corresponding to the CUDA
 pip install transformers==4.8.2 \
-            py-rouge nltk numpy datasets \
+            py-rouge nltk numpy datasets stanza dgl
 ```
 ---
 ## Data
-For PLM we use, `BART-base` and `BART-large`, download from huggingface model hubs and put it in the [pretrained_model](pretrained_model) folder.
-
-
 For dataset we use, we prepare the `SamSum` dataset in the data folder along with its annotation created by external linguistic tools. 
 
 For MediaSum dataset, we refer to [here](https://github.com/zcgzcgzcg1/MediaSum) and for DialogSum [here](https://github.com/cylnlp/dialogsum).
@@ -43,5 +40,5 @@ For linguistic tools for annotation:
 ## Training
 The dafault config is at `config/graphbart_config.json`
 ```bash
-CUDA_VISIBLE_DEVICES=x python run_summarization.py
+cd src && CUDA_VISIBLE_DEVICES=x python run_summarization.py
 ```
